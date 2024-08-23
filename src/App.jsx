@@ -1,16 +1,11 @@
+import Todo from "./Components/Todo";
 
 const App = () => {
-  return <h1>Hello</h1>
-}
-
-
-
-
-
-
-
-
-
-
+  return (
+    <>
+      <Todo />
+    </>
+  );
+};
 
 export default App;
